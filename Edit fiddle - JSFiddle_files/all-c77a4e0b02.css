@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
+*, body, button, input, textarea, select {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  height: 100vh;
+}
+
+html {
+  font-family: "Lato", Helvetica, Arial, Tahoma, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: "Lato", Helvetica, Arial, Tahoma, sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+p, h2, h3 {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-size: 14px;
+}
+
+h2, h3 {
+  font-weight: 600;
+  font-size: 14.4px;
+  font-size: .9rem;
+}
+
+.outercont {
+  color: #222C36;
+}
+
+.outercont .cont {
+  overflow: hidden;
+  width: 300px;
+}
+
+.outercont .innercont {
+  width: 800px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  transition: all 0.3s;
+}
+
+.outercont .innercont .logListCont,
+    .outercont .innercont .logDetails {
+  width: 300px;
+  float: left;
+  overflow: hidden;
+}
+
+.outercont .innercont .slideCont {
+  margin: 15px;
+}
+
+.outercont .innercont .slideCont .slideBody img {
+  width: 270px;
+}
+
+.outercont .innercont .slideCont .slideBody p {
+  margin-bottom: 10px;
+  line-height: 20px;
+  color: #666;
+}
+
+.outercont .innercont .slideCont .slideBody p a {
+  color: #2795EE;
+}
+
+.outercont .innercont .logList {}
+
+.outercont .innercont .logItem {
+  display: block;
+  line-height: 20px;
+  margin: 15px;
+  color: #666;
+  text-decoration: none
+}
+
+.outercont .innercont .logItem:hover strong {
+  text-decoration: underline;
+}
+
+.outercont .innercont strong {
+  color: #222C36;
+  font-weight: 600;
+}
+
+.outercont .innercont h3 {
+  text-align: center;
+  border-bottom: solid 1px #F1F1F1;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 15px 0;
+  line-height: 25px;
+}
+
+.outercont .innercont .link {
+  text-align: center;
+}
+
+.outercont .innercont .link a {
+  border: solid 1px #2795EE;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  color: #2795EE;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.outercont .innercont .seeMore,
+    .outercont .innercont .goBack {
+  background: #FCFCFC;
+  color: #A8A8A8;
+  font-size: 12px;
+  text-align: center;
+  border-top: solid 1px #F1F1F1;
+  height: 35px;
+  line-height: 35px;
+}
+
+.outercont .innercont .seeMore a, .outercont .innercont .goBack a {
+  color: #A8A8A8;
+}
+
+.outercont .innercont .goBack {
+  text-align: left;
+  padding-left: 15px;
+}
+
+.outercont .innercont .goBack a {
+  text-decoration: none;
+}
+
+.outercont .innercont .label {
+  border-radius: 10px;
+  color: #fff;
+  font-size: 10px;
+  padding: 0 6px;
+  height: 20px;
+  line-height: 20px;
+  margin-right: 5px;
+  text-transform: uppercase;
+  float: left
+}
+
+.outercont .innercont .label.improvement {
+  background: #8d66b9;
+}
+
+.outercont .innercont .label.new {
+  background: #5ab987;
+}
+
+.outercont .innercont .label.fix {
+  background: #F5A623;
+}
